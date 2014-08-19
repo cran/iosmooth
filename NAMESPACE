@@ -1,0 +1,1 @@
+export(bwadap, bwadap.numeric, bwadap.ts, bwplot, bwplot.numeric, bwplot.ts, iodensity, ioksmooth, iospecden, sospecden)
