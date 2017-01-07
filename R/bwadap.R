@@ -25,7 +25,7 @@ bwadap.ts <- function(x, Kn = 5, c.thresh = 2, ...) {
 	}
 
 	warning("No bandwidth found")		
-	return(n/2)
+	return(floor(n/10))
 }
 
 bwadap.numeric <- function(x, smax=13.49/IQR(x), n.points = 1000, Kn = 1.349*5/IQR(x), c.thresh = 2, ...) {	

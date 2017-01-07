@@ -16,7 +16,7 @@ iospecden(x, l, kernel = c("Trap", "Rect", "SupSm"), x.points = seq(-pi, pi, len
 A univariate time series.
 }
   \item{l}{
-The smoothing parameter. If missing adaptive bandwidth choice is used via \code{\link{bwadap.ts}}.  
+The smoothing parameter. If missing, adaptive bandwidth choice is used via \code{\link{bwadap.ts}}.  
 }
   \item{kernel}{
 Three flat-top kernels are implemented, described by the shape of their Fourier transforms.  "Trap" is trapezoid shaped and is the default.  The rectangular kernel is not recommended and is here for comparison only.  SupSm is infinitely differentiable in the Fourier domain.  
@@ -38,7 +38,7 @@ If \code{x.points} is NULL, the function returns the estimated spectral density 
 }
 
 \references{
-Politis, D. N., & Romano, J. P. (1995). Bias-corrected nonparametric spectral estimation . \emph{Journal of Time Series Analysis}, 16(1), 67-103.
+Politis, D. N., & Romano, J. P. (1995). Bias-corrected nonparametric spectral estimation. \emph{Journal of Time Series Analysis}, 16(1), 67-103.
 
 Politis, D. N. (2003). Adaptive bandwidth choice. \emph{Journal of Nonparametric Statistics}, 15(4-5), 517-533.
 }

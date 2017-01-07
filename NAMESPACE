@@ -1,1 +1,7 @@
-export(bwadap, bwadap.numeric, bwadap.ts, bwplot, bwplot.numeric, bwplot.ts, iodensity, ioksmooth, iospecden, sospecden)
+export(bwadap, bwadap.ts, bwadap.numeric, bwplot, bwplot.ts, bwplot.numeric, iodensity, ioksmooth, iospecden, sospecden)
+importFrom("graphics", "abline", "plot")
+importFrom("stats", "IQR", "acf", "integrate", "uniroot")
+S3method(bwadap, numeric)
+S3method(bwadap, ts)
+S3method(bwplot, numeric)
+S3method(bwplot, ts)

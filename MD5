@@ -1,7 +1,7 @@
-40bf526c2dd13c8e4ef5d00059913397 *DESCRIPTION
-bb3fcf1793c7ff4fcb3922273629b8ff *NAMESPACE
+2f9a4284ad9830c523db181d991bd7e7 *DESCRIPTION
+80a52c234ffd55c33ca9c80309e73530 *NAMESPACE
 77571b8016110aeed64a35a46d42c53d *R/bw2order.R
-e9986202ecad6eb777e7e4765ba874d1 *R/bwadap.R
+74d20492c9720672eb24806c766096c3 *R/bwadap.R
 5efd16061b08350c32a50481496caf85 *R/bwplot.r
 7439f4756e1ff62f6c3505da6cb0f7aa *R/iodensity.r
 d722e0102c5a899150005a29627d2491 *R/ioksmooth.r
@@ -14,9 +14,9 @@ d062ae65079865fb2cf683f2ed1dd618 *R/kernels.R
 e45ad4d6ad345d4806c74c438c47a839 *man/bwadap.numeric.Rd
 f5a9e48cdc08b0b1d60f2a412a03ab36 *man/bwadap.ts.Rd
 bf66043a66efe23ebaf4a161d24caf37 *man/bwplot.Rd
-2fdf8db12f7da200d0f5c5ed807de577 *man/bwplot.numeric.Rd
+c183be67bec5b49be11a3d722f939b07 *man/bwplot.numeric.Rd
 1e9bc90230c05b06a1e82aef2ec2ab68 *man/bwplot.ts.Rd
 7e8e2c446a32ece3792e28869c24c0f5 *man/iodensity.Rd
 5a56ed9b48d626f37c8e82571f132652 *man/ioksmooth.Rd
-49b43171edef3b44de3a50ba14d6b538 *man/iospecden.Rd
+bfe0cf9d79ec90bd1cb632d1fb8cfc33 *man/iospecden.Rd
 5275f3ab8afcfdbdd501f279c6b0e39b *man/sospecden.Rd

@@ -25,7 +25,7 @@ A vector of responses, for regression only.
 Rescale the sample characteristic function so that it is 1 at frequency 0.  Does not affect plots for density estimation.  For regression it is often better to leave this as \code{FALSE}.  
 }
   \item{n.points}{
-The number of points in \code{[0, smax]} at which the algorithm looks for crossing of the threshold \code{c.thresh*sqrt(log(n,10)/n)}.  If the sample characteristic function is highly oscillatory on \code{[0,smax]}, this may need to be increased.  
+The number of points in \code{[0, smax]} at which at which the sample characteristic function is calculated.  If the sample characteristic function is highly oscillatory on \code{[0,smax]}, this may need to be increased.  
 }
   \item{c.thresh}{
 For regression, this is not meaningful.  For density estimation, the bandwidth is chosen by looking for the first time the sample characteristic function drops below \code{c.thresh*sqrt(log(n,10)/n)} and stays below that level for a distance of \code{Kn}.
