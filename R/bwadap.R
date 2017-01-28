@@ -8,7 +8,7 @@ bwadap.ts <- function(x, Kn = 5, c.thresh = 2, ...) {
 	
 	pos <- 1
 	
-	while(pos < n/2)
+	while(pos < n/10)
 	{
 		npos <- match(TRUE, abs(ac[pos:l]) < thresh)
 		if( is.na(npos) ) break;
